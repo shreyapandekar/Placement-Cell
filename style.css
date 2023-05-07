@@ -1,0 +1,236 @@
+
+* {
+    margin:0px;
+    padding:0px;
+    
+    
+}
+html, body {
+    font-family: Roboto, sans-serif, arial;
+    font-size: 14px;
+    color: #242424;
+    background-color: #dbeaf9;
+    
+}
+.container {
+    width: 1200px;
+    margin:0px auto;
+    /* background-color: #140f3d; */
+}
+.main-section {
+    width: 100%;
+    float: left;
+    top: 100px;
+    padding:50px 0px 40px 0px;
+    font-family: sans-serif;
+}
+.name{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-style:inherit;
+    text-align: top;
+    margin-bottom: 100px;
+    /* width: 550px;
+    height: 130px;
+    margin-left: 300px; */
+
+    
+}
+.Admin_Log{
+    float: right;
+     margin-top: 110px;
+    left: 200px;
+    margin-right: -100px;
+    color: #10051a;
+    padding: 10px;
+    right: -500px;
+    border-radius: 8px;
+    text-align: center;
+    /* box-shadow: 0 6px 20px -5px rgba(15, 10, 10, 0.664); */
+    text-decoration: none;
+    /* background-color: #d5e4f4; */
+    font-family:Georgia, Times, 'Times New Roman', serif; 
+}
+.Admin_Log:hover{
+    color: rgb(199, 107, 235);
+}
+.heading {
+    font-size: 25px;
+    font-weight: 500;
+    border-bottom: 1px solid #231153;
+    margin-bottom:25px;
+    color: #140f3d;
+    font-family: sans-serif;
+}
+.heading-about{
+    font-family: sans-serif;
+}
+.button{
+    min-width: 80px;
+    min-height: 15px;
+    border: 0;
+    outline: none;
+    background-color: #390c43;
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 6px 20px -5px rgba(0, 0, 0, 0.664);
+
+    float: right;
+    margin-right: 50px;
+    margin-top: -30px;
+    
+    
+}
+.button:hover{
+    background-color: rgb(71, 57, 162);
+}
+
+ 
+.logo {
+    width:150px;
+    height:130px;
+    margin-left: -100px;
+    
+}
+ 
+nav {
+    width: 100%;
+    float: left;
+    background: #17062f;
+    padding:15px 0px;
+    height: 20px;
+    
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    border-right: 1px solid #ffc3c3;
+    padding:2px 20px;
+}
+
+.slider img {
+    width:100%;
+    height: 450px;
+    opacity: 90%;
+}
+.slider{
+    width:100%;
+    height: 450px;
+    /* opacity: 90%; */
+    position: relative;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1));
+    z-index: 100%;
+    background-blend-mode: normal;
+
+}
+/* .note{
+    float: top;
+    margin-top: -500px;
+} */
+
+ 
+.event {
+    width: 31%;
+    margin-right: 1%;
+    float: left;
+}
+.event div {
+    padding:10px;
+    background-color: #cdd7eb;
+    box-shadow: 0 6px 20px -5px rgba(40, 40, 40, 0.550);
+}
+.event ul li {
+    margin-bottom: 20px;
+    width: 100%;
+    float: left;
+}
+
+.about-us img {
+    width:28%;
+    float:left;
+    margin-top: 30px;
+}
+.about-us div {
+    width:70%;
+    margin-left:20px;
+    float:left;
+    line-height:35px;
+}
+  
+.testimonial {
+    width: 380px;
+    float: left;
+    margin-right:10px;
+}
+.testimonial-text {
+    background: #f0f3fa;
+    padding: 20px;
+    line-height: 35px;
+    border-radius: 10px;
+}
+.testimonial-detail {
+    float:left;
+    margin-top:10px;
+}
+.testimonial-img {
+    float:left;
+}
+.testimonial-img img {
+    border-radius:50%;
+}
+.testimonial-name {
+    margin-left:10px;
+    float:left;
+}
+.testimonial-name h5 {
+    font-size:18px;
+    margin-top:8px;
+}
+  
+.gallery img {
+    width: 24%;
+}
+
+.placement img {
+    border:1px solid #dfdfdf;
+    width: 100px;
+}
+
+.footer {
+    background-color:#17072c;
+    padding:70px 0px;
+    width:100%;
+    float:left;
+    font-style: none;
+}
+.footer-sect {
+    width:33%;
+    float:left;
+}
+.footer-sect h2 {
+    color:#fff;
+    margin-bottom: 20px;
+}
+.footer-sect p {
+    color: #fff;
+    line-height: 22px;
+    padding:0px 30px 20px 0px;
+}
+.footer-menu li {
+    width: 50%;
+    float: left;
+    margin-bottom: 10px;
+}
+.footer-menu li a {
+    color:#fff;
+    text-decoration: none;
+}
+.footer-contact li {
+    margin-bottom:15px;
+    list-style: none;
+    color: #fff;
+}
